@@ -31,3 +31,4 @@ productos.forEach(p => {
 
     contenedor.appendChild(card);
 });
+
