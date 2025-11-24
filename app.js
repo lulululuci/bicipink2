@@ -2,17 +2,17 @@ const productos = [
     {
         nombre: "Cadena Shimano",
         precio: $2.500,
-        imagen: "imagen.tienda/Cadena Shimano.jpg.jpg"
+        imagen: "/imagen.tienda/Cadena Shimano.jpg.jpg"
     },
     {
         nombre: "Cámara 29'",
         precio: $5.000,
-        imagen: "imagen.tienda/camara 29.jpg.jpg"
+        imagen: "/imagen.tienda/camara 29.jpg.jpg"
     },
     {
         nombre: "Cubierta MTB 29''",
         precio: $10.000,
-        imagen: "imagenes/cubierta 29.jpg.jpg"
+        imagen: "/imagen.tienda/cubierta 29.jpg.jpg"
     }
 ];
 
@@ -31,3 +31,4 @@ productos.forEach(p => {
 
     contenedor.appendChild(card);
 });
+
